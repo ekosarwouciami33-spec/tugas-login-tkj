@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.unsplash.com/photo-1557683316-973673baf926);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    padding: 0 40px;
+}
+
+.container .login-email {
+    margin-top: 40px;
+}
+
+.login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E7E7E7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.login-email .input-group input:focus, .login-email .input-group input:valid {
+    border-color: #6a0dad;
+}
+
+.login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #6a0dad;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(106, 13, 173, .2);
+    transition: .3s;
+}
+
+.login-email .input-group .btn:hover {
+    transform: translateY(-2px);
+}
+
+.login-register-text {
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6a0dad;
+}
+
+.container-logout {
+    width: 400px;
+    min-height: 200px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    padding: 40px;
+    text-align: center;
+}
+
+.container-logout h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container-logout .btn {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background: #FF4B2B;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 50px;
+    box-shadow: 0 5px 15px rgba(255, 75, 43, .2);
+}
